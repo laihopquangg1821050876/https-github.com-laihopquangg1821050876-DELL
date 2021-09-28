@@ -136,6 +136,7 @@
       <DependentUpon>202109261443406_CreateDBversion1.0.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Khachhang.cs" />
     <Compile Include="Models\QLSVContext.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
