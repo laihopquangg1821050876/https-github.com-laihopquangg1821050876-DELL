@@ -1,0 +1,50 @@
+﻿@model QLSV.Models.SinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tensv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tensv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Namsinhsv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Namsinhsv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lopsv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lopsv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SDTsv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDTsv)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Masv }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
